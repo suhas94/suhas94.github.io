@@ -1,0 +1,141 @@
+<!DocType html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <!-- <nav class="navbar navbar-default"> -->
+    <a class="navbar-brand" href="#">
+          <img src="./logo.png" width="50" height="40"  alt=""></a>
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="text-secondary"><a href="#About">About</a></li>
+        <li><a class="text-secondary" href="#Research">Research</a></li>
+        <li><a class="text-secondary" href="#">Future</a></li>
+        <li><a class="text-secondary" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row" id="intro">
+    <a name="About"> </a>
+    <!-- <div class="col-md-6"> -->
+    <!-- <img id="introImg" class="img-responsive" src=./screenshot.png width="380" height="450"> -->
+    <!-- </div> -->
+    <!-- <div class="col-md-6" id="introText"> -->
+    <div id="center">
+      <div id="introBox">
+        <!-- <img id="introI" src="./logo.png" width="200" height="100" /> -->
+        <h2 id="introH"> Welcome to Theraguide </h2>
+        <!-- </div> -->
+        <p id="introp"> I am a chatbot designed to equip people to communicate effectively with anyone experiencing depression & anxiety.
+        </p>
+
+      </div>
+
+    </div>
+    <div id="centy">
+      <a href="https://www.facebook.com/Bot-testing-2014622625474691/"><button id="getStarted"> Try It Out </button></a>
+    </div>
+  </div>
+
+  <div class="row" id="specializeDiv">
+    <a name="Research"> </a>
+    <div class="col-md-8">
+      <div id="centered">
+
+        <div id="specializeBox">
+          <h2 id="specializeText">I am a Certified Professional! </h2>
+        </div>
+      </div>
+      <p>
+        I can provide you information about signs and symptoms of depression & anxiety. I am also raising awareness on these mental
+        issues. At the same time, I can teach you to be a great listener and give you amazing resources.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive" id="specialize" src=./specialize.png width="380" height="450">
+    </div>
+
+  </div>
+  <div class="row" id="vision">
+    <div id="border">
+      <h1 id=VisionH> The Vision</h1>
+    </div>
+    <div class="col-md-4">
+      <img id="visionArt" src="./visionArt.png" width="300" height="450">
+    </div>
+    <div class="col-md-8">
+      <p id="visionText">To equip individuals from any background with the awareness for effective communication with anyone experiencing depression
+        or anxiety.</p>
+    </div>
+  </div>
+  <div class="row" id="futureGoals">
+    <div id="border">
+      <h1 id=VisionH> Future Goals</h1>
+    </div>
+    <div class="col-md-4">
+      <img id="visionArt" src="./lightBulb.png" width="400" height="450">
+    </div>
+    <div class="col-md-8">
+      <p id="futureGoalsText"> We will conduct research on machine learning in order to provide improved and thorough therapeutic guides for the users
+        on mental health related issues. Machine Learning is a form of Artificial Intelligence in which the program is designed
+        to learn on its own without any programming. When machine learning gets used to develop our chatbot, it will be capable
+        of responding using natural language to variety of questions and inquiries. Instead of having predetermined responses
+        that imposes limited interactions for the users with the current chatbot, machine learning will affect TheraGuide
+        to provide improved interactions and helpful tips to equip users for effective communication with anyone experiencing
+        depression or anxiety.
+      </p>
+    </div>
+  </div>
+  <div class="row" id="teamBio">
+    <div id="border">
+      <h1 id=VisionH> Our Team </h1>
+    </div>
+    <div id="row1">
+      <div id="row1Subject">
+        <img id="audrey" src="./audrey.jpg " />
+        <h3> Research: Audrey Ryan </h1>
+      </div>
+      <div id="row1Subject">
+        <img id="audrey" src="./jacob.jpg " />
+        <h3> UI/UX: Jacob Jo </h3>
+      </div>
+      <div id="row1Subject">
+        <img id="audrey" src="./kenneth.jpg " />
+        <h3> Developer: Kenneth Santarosa </h3>
+      </div>
+    </div>
+    <div id="row2">
+      <div id="row1Subject">
+        <img id="audrey" src="./suha.png " />
+        <h3> Web Developer: Suha Sattar </h3>
+      </div>
+      <div id="row1Subject">
+        <img id="audrey" src="./susan.jpg " />
+        <h3> Project Manager: Susan Su Tham</h3>
+      </div>
+    </div>
+    <div class="row" id="help">
+      <div id="border">
+        <h1 id=VisionH> Help Us Grow </h1>
+      </div>
+      <p id="ppp"> Like what we're doing? </p>
+      <p id="pp">Want to be a part of our success? </p>
+      <p id="p">Donate now! </p>
+      <a href="https://www.paypal.com/us/home"><img id="payup" src="./paypal.png" /></a>
+    </div>
+</body>
+
+</html>
